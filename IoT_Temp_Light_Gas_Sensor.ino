@@ -131,7 +131,7 @@ void loop() {
     Serial.print(",");
     Serial.print(lightLevel);
     Serial.print(",");
-    Serial.print(gasConcentration);
+    Serial.println(gasConcentration);
 
     delay(1000); // Delay for a second before repeating the loop
 }
